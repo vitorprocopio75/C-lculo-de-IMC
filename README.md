@@ -1,31 +1,52 @@
-### Monitoramento de Saúde com Cálculo de IMC
-Imagine que você foi convidado para desenvolver uma aplicação simples que
-auxilie as pessoas a monitorarem seu estado de saúde. Neste cenário, o objetivo é
-criar um programa que receba o peso e a altura do usuário, calcule o Índice de
-Massa Corporal (IMC) e exiba o valor calculado. Com base no resultado, o
-programa deve indicar uma mensagem que oriente o usuário quanto à sua
-condição de saúde:
-O programa deve seguir as seguintes regras:
-• Se o IMC for maior ou igual a 30.0, a mensagem exibida será “Cuidado com a
-Saúde”.
-• Caso contrário, a mensagem será “Tudo ok”.
-Observação: O aluno pode incrementar o código seguindo a tabela.
-• Abaixo de 18.5: Abaixo do peso
-• Abaixo de 24.9: Peso normal
-• Abaixo de 29.9: Sobrepeso
-• Abaixo de 34.9: Obesidade Grau I
-• Abaixo de 39.9: Obesidade Grau II
-• 40.0 ou mais: Obesidade Grau III (mórbida)
+# 🩺 Monitoramento de Saúde com Cálculo de IMC
 
+Este projeto é uma aplicação simples em Python que ajuda o usuário a monitorar sua saúde com base no cálculo do IMC (Índice de Massa Corporal).
 
-Essa atividade terá avaliação dos seguintes características: 
-Critérios críticos: Vermelho
-Critérios desejáveis: Preto    
+## 💡 Objetivo
 
-Itens críticos:
-Nome do repositório
-Código funcionando corretamente
-Entrega dentro do prazo estabelecido
+Receber o **peso** e a **altura** do usuário, calcular o **IMC** e exibir:
+- O valor calculado
+- Uma mensagem de orientação baseada no resultado
 
-Itens Desejáveis:
-Personalização do print contendo : Nome do usuário,  resultado e tabela de classificação do IMC
+## ⚙️ Itens críticos:
+
+1. O usuário informa o **peso (kg)** e a **altura (m)**.
+2. O programa calcula o IMC:
+
+### IMC = peso / (altura ** 2)
+
+3. O IMC é exibido junto com uma mensagem personalizada:
+- IMC ≥ 30.0 → `Cuidado com a Saúde`
+- IMC < 30.0 → `Tudo ok`
+
+## 📊 Itens Desejáveis:
+
+Você pode melhorar o programa utilizando a tabela abaixo para exibir classificações mais detalhadas:
+
+| Faixa de IMC        | Classificação                  |
+|---------------------|-------------------------------|
+| < 18.5              | Abaixo do peso                 |
+| 18.5 – 24.9         | Peso normal                    |
+| 25.0 – 29.9         | Sobrepeso                      |
+| 30.0 – 34.9         | Obesidade Grau I               |
+| 35.0 – 39.9         | Obesidade Grau II              |
+| ≥ 40.0              | Obesidade Grau III (mórbida)   |
+
+## ✅ Critérios de Avaliação
+
+### 🔴 Itens críticos (obrigatórios)
+- Nome do repositório correto
+- Código funcionando corretamente
+- Entrega dentro do prazo
+
+### ⚫ Itens desejáveis (valem pontos extras)
+- O programa exibe:
+- Nome do usuário
+- Valor do IMC
+- Classificação detalhada com base na tabela acima
+
+## 🚀 Bora codar!
+
+Este é um ótimo exercício para treinar entrada de dados, cálculos e estruturas condicionais no Python.
+
+Contribuições e melhorias são bem-vindas!
