@@ -16,3 +16,16 @@ Observação: O aluno pode incrementar o código seguindo a tabela.
 • Abaixo de 34.9: Obesidade Grau I
 • Abaixo de 39.9: Obesidade Grau II
 • 40.0 ou mais: Obesidade Grau III (mórbida)
+
+
+Essa atividade terá avaliação dos seguintes características: 
+Critérios críticos: Vermelho
+Critérios desejáveis: Preto    
+
+Itens críticos:
+Nome do repositório
+Código funcionando corretamente
+Entrega dentro do prazo estabelecido
+
+Itens Desejáveis:
+Personalização do print contendo : Nome do usuário,  resultado e tabela de classificação do IMC
