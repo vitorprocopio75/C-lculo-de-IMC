@@ -45,6 +45,13 @@ Você pode melhorar o programa utilizando a tabela abaixo para exibir classifica
 - Valor do IMC
 - Classificação detalhada com base na tabela acima
 
+## 🧠 Dica
+
+- Entrada de dados com `input()`
+- Conversão de tipos (`float`)
+- Operadores aritméticos ( `divisão /`, `potência **`)
+- Estrutura condicional com `if`, `elif`, `else`
+  
 ## 🚀 Bora codar!
 
 Este é um ótimo exercício para treinar entrada de dados, cálculos e estruturas condicionais no Python.
